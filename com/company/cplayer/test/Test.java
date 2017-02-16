@@ -4,4 +4,8 @@
  * Today is четверг
  */
 public class Test {
+    public static void main(String[] args){
+        GuiTest.test(args);
+
+    }
 }
