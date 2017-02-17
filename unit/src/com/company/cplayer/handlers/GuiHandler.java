@@ -10,6 +10,9 @@ import javax.swing.*;
  * Today is четверг
  */
 public class GuiHandler {
+
+    private GuiHandler(){}
+
     public static JFrame mainFrame;
 
     public static void init(){
