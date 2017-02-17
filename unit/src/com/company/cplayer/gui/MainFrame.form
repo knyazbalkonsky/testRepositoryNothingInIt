@@ -34,12 +34,12 @@
           </component>
         </children>
       </grid>
-      <grid id="cf93f" binding="panel3" layout-manager="BorderLayout" hgap="0" vgap="0">
+      <grid id="cf93f" binding="scenePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
         <constraints border-constraint="Center"/>
         <properties/>
         <border type="none"/>
         <children>
-          <grid id="280e6" binding="panel4" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+          <grid id="280e6" binding="popupPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
             <constraints border-constraint="South"/>
             <properties/>
             <clientProperties>

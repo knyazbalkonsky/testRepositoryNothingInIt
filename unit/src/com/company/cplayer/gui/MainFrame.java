@@ -17,8 +17,8 @@ public class MainFrame extends JFrame {
     private JButton pauseButton;
     private JButton playButton;
     private JPanel panel2;
-    private JPanel panel3;
-    private JPanel panel4;
+    private JPanel scenePanel;
+    private JPanel popupPanel;
 
     private MainFrame(String title) {
         super(title);
@@ -63,22 +63,22 @@ public class MainFrame extends JFrame {
         settingsButton = new JButton();
         settingsButton.setText("Settings");
         panel2.add(settingsButton);
-        panel3 = new JPanel();
-        panel3.setLayout(new BorderLayout(0, 0));
-        rootPanel.add(panel3, BorderLayout.CENTER);
-        panel4 = new JPanel();
-        panel4.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
-        panel4.putClientProperty("html.disable", Boolean.FALSE);
-        panel3.add(panel4, BorderLayout.SOUTH);
+        scenePanel = new JPanel();
+        scenePanel.setLayout(new BorderLayout(0, 0));
+        rootPanel.add(scenePanel, BorderLayout.CENTER);
+        popupPanel = new JPanel();
+        popupPanel.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
+        popupPanel.putClientProperty("html.disable", Boolean.FALSE);
+        scenePanel.add(popupPanel, BorderLayout.SOUTH);
         stopButton = new JButton();
         stopButton.setText("Stop");
-        panel4.add(stopButton);
+        popupPanel.add(stopButton);
         pauseButton = new JButton();
         pauseButton.setText("Pause");
-        panel4.add(pauseButton);
+        popupPanel.add(pauseButton);
         playButton = new JButton();
         playButton.setText("Play");
-        panel4.add(playButton);
+        popupPanel.add(playButton);
     }
 
     /**
