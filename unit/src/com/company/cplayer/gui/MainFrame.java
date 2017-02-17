@@ -55,15 +55,13 @@ public class MainFrame extends JFrame {
         panel2.setLayout(new FlowLayout(FlowLayout.LEFT, 5, 5));
         rootPanel.add(panel2, BorderLayout.NORTH);
         fileButton = new JButton();
-        fileButton.setText("Button");
-        fileButton.setMnemonic('B');
-        fileButton.setDisplayedMnemonicIndex(0);
+        fileButton.setText("File");
         panel2.add(fileButton);
         viewButton = new JButton();
-        viewButton.setText("Button");
+        viewButton.setText("View");
         panel2.add(viewButton);
         settingsButton = new JButton();
-        settingsButton.setText("Button");
+        settingsButton.setText("Settings");
         panel2.add(settingsButton);
         panel3 = new JPanel();
         panel3.setLayout(new BorderLayout(0, 0));
@@ -73,13 +71,13 @@ public class MainFrame extends JFrame {
         panel4.putClientProperty("html.disable", Boolean.FALSE);
         panel3.add(panel4, BorderLayout.SOUTH);
         stopButton = new JButton();
-        stopButton.setText("Button");
+        stopButton.setText("Stop");
         panel4.add(stopButton);
         pauseButton = new JButton();
-        pauseButton.setText("Button");
+        pauseButton.setText("Pause");
         panel4.add(pauseButton);
         playButton = new JButton();
-        playButton.setText("Button");
+        playButton.setText("Play");
         panel4.add(playButton);
     }
 
