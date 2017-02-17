@@ -16,6 +16,6 @@ public class GuiHandler {
     public static JFrame mainFrame;
 
     public static void init(){
-        mainFrame = new MainFrame("test");
+        mainFrame = new MainFrame("test", 800, 600);
     }
 }
