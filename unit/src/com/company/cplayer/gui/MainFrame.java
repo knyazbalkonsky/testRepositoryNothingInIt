@@ -1,4 +1,6 @@
-package gui;
+package com.company.cplayer.gui;
+
+import javax.swing.*;
 
 /**
  * Created on 16.02.2017.
@@ -8,6 +10,7 @@ package gui;
 public class MainFrame extends javax.swing.JFrame {
     public MainFrame(String title){
         super(title);
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
 
     public MainFrame(String title, int width, int height){

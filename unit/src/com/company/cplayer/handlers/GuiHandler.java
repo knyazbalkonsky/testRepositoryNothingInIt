@@ -1,6 +1,6 @@
-package handlers;
+package com.company.cplayer.handlers;
 
-import gui.MainFrame;
+import com.company.cplayer.gui.MainFrame;
 
 import javax.swing.*;
 

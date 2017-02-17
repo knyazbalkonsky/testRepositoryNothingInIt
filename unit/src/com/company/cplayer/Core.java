@@ -1,4 +1,6 @@
-import handlers.GuiHandler;
+package com.company.cplayer;
+
+import com.company.cplayer.handlers.GuiHandler;
 
 /**
  * Created on 16.02.2017.
